@@ -1,0 +1,13 @@
+{
+  "name": "school-manager-backend",
+  "version": "1.0.0",
+  "description": "This is a project to automate school management based on the Nigerian School System",
+  "main": "index.js",
+  "repository": "https://github.com/ebzeal/school-manager-backend.git",
+  "author": "Olusola Ajayi",
+  "license": "MIT",
+  "scripts": {
+    "test":"",
+    "start": "yarn index.js"
+  }
+}
