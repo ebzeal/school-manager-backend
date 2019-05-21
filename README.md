@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/ebzeal/school-manager-backend/tree/develop.svg?style=svg)](https://circleci.com/gh/ebzeal/school-manager-backend/tree/develop)
+[![Build Status](https://travis-ci.org/ebzeal/school-manager-backend.svg?branch=develop)](https://travis-ci.org/ebzeal/school-manager-backend) [![Maintainability](https://api.codeclimate.com/v1/badges/25838e8b28faec6d6966/maintainability)](https://codeclimate.com/github/ebzeal/school-manager-backend/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/25838e8b28faec6d6966/test_coverage)](https://codeclimate.com/github/ebzeal/school-manager-backend/test_coverage)
 
 
 

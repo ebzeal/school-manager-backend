@@ -7,7 +7,41 @@
   "author": "Olusola Ajayi",
   "license": "MIT",
   "scripts": {
-    "test":"",
-    "start": "yarn index.js"
+    "test": "cross-env NODE_ENV=test nyc mocha ./server/test --exit --timeout=20000 --recursive",
+    "start": "nodemon --exec babel-node ./index.js --env",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "coveralls": "^3.0.3",
+    "express": "^4.17.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^14.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cross-env": "^5.2.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.0"
+  },
+  "nyc": {
+    "require": [
+      "babel-register"
+    ],
+    "reporter": [
+      "lcov",
+      "text",
+      "html"
+    ],
+    "exclude": [
+      "**/*.spec.js",
+      "/server/test/*.js`"
+    ]
   }
 }
