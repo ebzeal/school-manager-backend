@@ -21,7 +21,7 @@ Say what the step will be
 
 > run yarn or npm install
 
-> run yarn build
+> run yarn build or npm build
 
 
 # Running the tests
