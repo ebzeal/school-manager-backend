@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ebzeal/school-manager-backend.svg?branch=develop)](https://travis-ci.org/ebzeal/school-manager-backend) [![Maintainability](https://api.codeclimate.com/v1/badges/25838e8b28faec6d6966/maintainability)](https://codeclimate.com/github/ebzeal/school-manager-backend/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/25838e8b28faec6d6966/test_coverage)](https://codeclimate.com/github/ebzeal/school-manager-backend/test_coverage)
+[![Build Status](https://travis-ci.org/ebzeal/school-manager-backend.svg?branch=develop)](https://travis-ci.org/ebzeal/school-manager-backend) [![Maintainability](https://api.codeclimate.com/v1/badges/25838e8b28faec6d6966/maintainability)](https://codeclimate.com/github/ebzeal/school-manager-backend/maintainability) [![Coverage Status](https://coveralls.io/repos/github/ebzeal/school-manager-backend/badge.svg?branch=develop)](https://coveralls.io/github/ebzeal/school-manager-backend?branch=develop)
 
 
 
@@ -21,7 +21,7 @@ Say what the step will be
 
 > run yarn or npm install
 
-> run yarn build
+> run yarn build or npm build
 
 
 # Running the tests
