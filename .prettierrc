@@ -4,5 +4,6 @@
   "singleQuote": true,
   "bracketSpacing": true,
   "trailingComma": "es5",
-  "useEditorConfig": true
+  "useEditorConfig": true,
+  "arrowParens": "always"
 }
